@@ -1,0 +1,99 @@
+﻿################################################################################
+# .gitignore — Projeto Sales / 123Vendas
+# Modelo profissional para Visual Studio + .NET 10 + Git Flow
+################################################################################
+
+/.vs
+/Sales.Domain/obj/Debug/net10.0
+/Sales.Domain/bin/Debug/net10.0
+/Sales.Domain/obj
+
+
+# Diretórios do Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build / Bin / Obj
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/out/
+
+# Arquivos temporários do VS
+*.cache
+*.ide
+*.db
+*.pidb
+*.svclog
+*.pdb
+*.mdb
+
+# Arquivos de build do Roslyn / Copilot / IntelliSense
+*.dll
+*.exe
+*.log
+*.ilk
+*.tlog
+*.lastcodeanalysissucceeded
+*.code-workspace
+
+# Diretórios gerados pelo VS para build incremental
+/.vs
+/.vscode
+/.ionide
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Pacotes NuGet — baixados automaticamente
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Arquivos de publicação
+publish/
+*.pubxml
+*.pubxml.user
+
+# Cache do MSBuild
+*.Build.cs
+*.AssemblyInfo.cs
+
+# Logs gerais
+*.log
+
+# Arquivos de configuração locais (não versionar)
+appsettings.Development.json
+appsettings.Local.json
+
+# Backup de documentos
+*.bak
+*.backup
+*~
+
+
+################################################################################
+# Diretórios específicos da sua solução (Sales.Domain / Sales.Application etc.)
+################################################################################
+
+# Qualquer bin/obj dentro do projeto Sales.*
+Sales.Domain/bin/
+Sales.Domain/obj/
+Sales.Application/bin/
+Sales.Application/obj/
+Sales.Infrastructure/bin/
+Sales.Infrastructure/obj/
+Sales.Api/bin/
+Sales.Api/obj/
+
+################################################################################
+# Fim
+################################################################################
