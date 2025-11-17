@@ -6,7 +6,7 @@ WORKDIR /src
 COPY ["Sales.Api/Sales.Api.csproj", "Sales.Api/"]
 COPY ["Sales.Application/Sales.Application.csproj", "Sales.Application/"]
 COPY ["Sales.Domain/Sales.Domain.csproj", "Sales.Domain/"]
-COPY ["Sales.Infraestructure/Sales.Infrastructure.csproj", "Sales.Infraestructure/"]
+COPY ["Sales.Infrastructure/Sales.Infrastructure.csproj", "Sales.Infrastructure/"]
 
 RUN dotnet restore "Sales.Api/Sales.Api.csproj"
 
