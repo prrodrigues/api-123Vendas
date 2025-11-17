@@ -16,22 +16,23 @@ Este repositório contém os serviços do 123Vendas. Para executar localmente vi
    docker compose up --build
    ```
 
-Se a execução falhar com erro semelhante a `open //./pipe/dockerDesktopLinuxEngine`, o Docker Desktop não está em execução ou a integração WSL não está habilitada. Inicie o Docker Desktop e tente novamente.
-
-
-aplicação 
+#aplicação 
 http://localhost:8080/swagger/index.html
+
+
+#RabbitMq
 http://localhost:15672/
 
 
 Branches principais:
 - main: código em produção (estável).
 - develop: integração de features, base para desenvolvimento.
+- homolog: após a develop aprovada, sobe para homologação.
 
 Branches auxiliares:
-- feature/*: novas funcionalidades (ex: feature/CARD-1234-dev).
-- fix/*: correções de bugs (ex: fix/CARDBug-0456).
-- chore/*: tarefas técnicas e débitos (ex: chore/CARDDebitoTecnico-0789).
+- feature/*: novas funcionalidades (ex: feature/CARD-0001-dev).
+- fix/*: correções de bugs (ex: fix/CARDBug-0001).
+- chore/*: tarefas técnicas e débitos (ex: chore/CARDDebitoTecnico-0001).
 - release/*: preparação de versões (ex: release/1.0.0).
 - hotfix/*: correções urgentes em produção (ex: hotfix/1.0.1-critical-bug).
 
