@@ -1,3 +1,10 @@
 <Solution>
+  <Folder Name="/SolutionItems/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Project Path="Sales.Api/Sales.Api.csproj" Id="8999f63f-1bcb-4406-9b1d-9bd31047cf21" />
+  <Project Path="Sales.Application/Sales.Application.csproj" Id="751c0b37-c0fd-49df-b488-5bca27ef1e94" />
   <Project Path="Sales.Domain/Sales.Domain.csproj" />
+  <Project Path="Sales.Infrastructure/Sales.Infrastructure.csproj" Id="9e123534-b7a3-4c4a-9a4b-ab6afe63b1a9" />
+  <Project Path="Sales.Tests/Sales.Tests.csproj" Id="5b322d5b-3b76-48c7-bc3c-12e0ffdacb6d" />
 </Solution>
